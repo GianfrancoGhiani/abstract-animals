@@ -36,6 +36,13 @@ public class Zoo {
             animale.dormi();
             animale.mangia();
             animale.verso();
+            if (animale instanceof Aquila){
+                ((Aquila)animale).faiVolare();
+            } else if (animale instanceof Passerotto){
+                ((Passerotto)animale).faiVolare();
+            } else if (animale instanceof Delfino){
+                ((Delfino)animale).faiNuotare();
+            }
         }
     }
 }

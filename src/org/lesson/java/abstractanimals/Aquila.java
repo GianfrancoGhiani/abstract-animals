@@ -1,7 +1,12 @@
 package org.lesson.java.abstractanimals;
 
-public class Aquila extends Animale {
+public class Aquila extends Animale implements volatili {
 
+
+    @Override
+    public void vola() {
+        System.out.println( "Sto volando!!!");
+    }
 
     @Override
     void verso() {
@@ -11,5 +16,8 @@ public class Aquila extends Animale {
     @Override
     void mangia() {
         System.out.println("Carne");
+    }
+    void faiVolare(){
+        vola();
     }
 }
