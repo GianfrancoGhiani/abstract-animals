@@ -5,12 +5,12 @@ public class Cane  extends Animale {
 
 
     @Override
-    void verso() {
+    public void verso() {
         System.out.println("Abbaia");
 
     }
     @Override
-    void mangia() {
+    public void mangia() {
         System.out.println("Carne");
     }
 }

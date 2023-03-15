@@ -9,12 +9,12 @@ public class Aquila extends Animale implements volatili {
     }
 
     @Override
-    void verso() {
+     public void verso() {
         System.out.println("Stride");
     }
 
     @Override
-    void mangia() {
+     public void mangia() {
         System.out.println("Carne");
     }
     public void faiVolare(){

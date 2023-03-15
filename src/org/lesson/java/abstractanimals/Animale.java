@@ -11,9 +11,9 @@ public abstract class Animale {
 //    Una volta create le classi, nel programma istanziare alcuni animali e utilizzare i metodi implementati.
 
 
-    void dormi(){
+    public void dormi(){
         System.out.println("Zzz");
     };
-    abstract void verso();
-    abstract void mangia();
+    public abstract void verso();
+    public abstract void mangia();
 }

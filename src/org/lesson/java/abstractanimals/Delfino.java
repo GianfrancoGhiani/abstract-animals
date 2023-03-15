@@ -7,11 +7,11 @@ public class Delfino  extends Animale implements nuotatore {
         System.out.println( "Sto nuotando!!!");
     }
     @Override
-    void verso() {
+    public void verso() {
         System.out.println("emette 'clicks'");
     }
     @Override
-    void mangia() {
+    public void mangia() {
         System.out.println("Pesci");
     }
     public void faiNuotare(){

@@ -6,13 +6,13 @@ public class Passerotto  extends Animale implements volatili{
         System.out.println( "Sto volando!!!");
     }
     @Override
-    void verso() {
+    public void verso() {
         System.out.println("Cinguetta");
 
     }
 
     @Override
-    void mangia() {
+    public void mangia() {
         System.out.println("Cereali/Semi");
     }
     public void faiVolare(){
