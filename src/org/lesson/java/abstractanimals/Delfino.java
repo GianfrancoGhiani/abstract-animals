@@ -14,7 +14,7 @@ public class Delfino  extends Animale implements nuotatore {
     void mangia() {
         System.out.println("Pesci");
     }
-    void faiNuotare(){
+    public void faiNuotare(){
         nuota();
     }
 }

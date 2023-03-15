@@ -15,7 +15,7 @@ public class Passerotto  extends Animale implements volatili{
     void mangia() {
         System.out.println("Cereali/Semi");
     }
-    void faiVolare(){
+    public void faiVolare(){
         vola();
     }
 }

@@ -17,7 +17,7 @@ public class Aquila extends Animale implements volatili {
     void mangia() {
         System.out.println("Carne");
     }
-    void faiVolare(){
+    public void faiVolare(){
         vola();
     }
 }
